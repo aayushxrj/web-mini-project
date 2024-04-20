@@ -1,30 +1,40 @@
-# Mini-Project Requirements
+# GitHub Event Website Template
 
-### HTML (5 marks)
-- Image
-- List
-- Links to at least 3 other webpages
-- Table
-- Need to apply `<div>`, ID, CLASSNAME
-- HTML form, button
+## GitHub Universe 2020
 
-### CSS (5 marks)
-- Class Selector, ID selector
-- External CSS file
-- Margin, padding
-- Font color, background color
-- Hover effect
+Join us online as we explore the future of software development.
 
-### JavaScript (5 marks)
-- While loop, for loop
-- Event handlers
-- Form controls
-- Document Object Model
-- Pull-down menu
-- Checkbox, radio button
+If you want to attend the main event: you have to visit POSSF.IR website. (https://github.com/POSSF/POSSF)
 
-### Presentation & Submission (5 marks)
+### Related Repository
 
-# Ideas/Designs/Links/Screenshots
-Feel free to add here...
+- Jekyll, Ruby-based: https://github.com/POSSF/POSSF
+- Pure HTML,CSS,JS: https://github.com/BaseMax/POSSF-Web
 
+[![GitHub Event Website Template](demo.png)](https://basemax.github.io/GitHubEventWeb/index.html)
+
+## GitHub Pages
+
+- https://basemax.github.io/GitHubEventWeb/index.html
+- https://basemax.github.io/GitHubEventWeb/error.html
+- https://basemax.github.io/GitHubEventWeb/profile.html
+- https://basemax.github.io/GitHubEventWeb/blog.html
+- https://basemax.github.io/GitHubEventWeb/faq.html
+
+## Theme License
+
+Consider that the codes are all written by me.
+But next to them, there are images implemented by the company's graphic designers. (GitHub Co)
+Therefore, I do not accept responsibility for the use of images.
+
+---------
+
+# Max Base
+
+My nickname is Max, Programming language developer, Full-stack programmer. I love computer scientists, researchers, and compilers.
+
+## Asrez Team
+
+A team includes some programmer, developer, designer, researcher(s) especially Max Base.
+
+[Asrez Team](https://www.asrez.com/)

@@ -464,3 +464,26 @@ section.profile .social svg {
     fill: currentColor;
     margin-right: 25px;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    --scroll-behavior: smooth;
+    --scroll-padding: 60px;
+    --scroll-duration: 0.6s; 
+    --scroll-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75); 
+  }
+  
+  html {
+    scroll-behavior: var(--scroll-behavior);
+    scroll-padding-top: var(--scroll-padding);
+  }
+  
+  body {
+    transition: scroll-behavior var(--scroll-duration) var(--scroll-timing-function);
+  }
+  
+  a[href^="#"] {
+    scroll-behavior: var(--scroll-behavior);
+  }

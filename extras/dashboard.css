@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #f2f2f2; 
+    background-image: url("pexels-francesco-ungaro-998641.jpg");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .event-card {
+    background-color: #656754; 
+    color: #f2f2f2; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    transition: box-shadow 0.3s ease;
+  }
+  .select-btn
+  {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  }
+  .select-btn:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  .event-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .selected-events {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .selected-events th, .selected-events td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #f2f2f2;
+  }
+  .selected-events th {
+    background-color: #333523;
+  }

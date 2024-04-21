@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="./../asset/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./../asset/GitHub-Universe-logo-2020-white.svg" />
+      <div class="time">May 7 - 14</div>
+      <nav>
+        <li><a href="./../index.html">Home</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a href="./profile.html">Profile</a></li>
+      </nav>
+    </header>
+    <center><h1 style="font-size: 70px">Events</h1></center>
+    <div class="container">
+      <div class="event-card" data-id="1" data-price="280">
+        <h2>Event 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          provident natus cum neque dolorem laborum beatae maiores dolorum!
+          Molestiae cum porro eaque. Ipsa, iure recusandae ex numquam pariatur
+          molestiae odio.
+        </p>
+        <p>Price: ₹280</p>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="event-card" data-id="2" data-price="320">
+        <h2>Event 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+          dignissimos vitae repellat! Blanditiis eligendi neque repellendus
+          dolores voluptatem, ut consequatur.
+        </p>
+        <p>Price: ₹320</p>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="event-card" data-id="3" data-price="300">
+        <h2>Event 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reiciendis
+          minima modi aperiam ratione quod.
+        </p>
+        <p>Price: ₹300</p>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="event-card" data-id="4" data-price="270">
+        <h2>Event 4</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+          voluptas in amet asperiores officia reiciendis assumenda alias eius
+          deserunt obcaecati!
+        </p>
+        <p>Price: ₹270</p>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="event-card" data-id="5" data-price="350">
+        <h2>Event 5</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+          doloremque delectus nesciunt consequuntur iusto minus!
+        </p>
+        <p>Price: ₹350</p>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="event-card" data-id="6" data-price="250">
+        <h2>Event 6</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          eligendi velit culpa, atque quam molestiae in?
+        </p>
+        <p>Price: ₹250</p>
+        <button class="select-btn">Select</button>
+      </div>
+    </div>
+
+    <table class="selected-events">
+      <thead>
+        <tr>
+          <th>Selected Events</th>
+          <th>Price (₹)</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td id="total-price">₹0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+  <script src="dashboard.js"></script>
+</html>

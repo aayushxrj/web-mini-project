@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./loginpage.css'>
+    <script src='./loginpage.js'></script>
+  
+</head>
+<body>
+
+<div class="box">
+    <span class="box__borderline"></span>
+  
+    <form class="form" action="#" onsubmit="return validateForm()">
+      <h2 class="form__title">SIGN UP</h2>
+  
+      <div class="form__box">
+        <input class="form__input" type="text" id="username" required="required">
+        <span class="form__span">Username</span>
+        <i class="form__line"></i>
+      </div>
+
+      <div class="form__box">
+        <input class="form__input" type="text" id="age" required="required">
+        <span class="form__span">Age</span>
+        <i class="form__line"></i>
+      </div>
+
+      <div class="gender-box">
+        <label for="gender">Gender</label>
+        <input type="radio" id="female" name="gender" required="required">Female 
+        <input type="radio" id="male" name="gender" required="required">Male
+        <i class="form__line"></i>
+      </div>
+
+  
+      <div class="form__box">
+        <input class="form__input" type="text" id="phoneNumber" required="required">
+        <span class="form__span">Phone Number</span>
+        <i class="form__line"></i>
+      </div>
+
+      <div class="form__box">
+        <input class="form__input" type="text" id="email" required="required">
+        <span class="form__span">Email Id</span>
+        <i class="form__line"></i>
+      </div>
+
+
+      <div class="form__captcha-container">
+        <span id="captchaDisplay" class="form__span form__span--captcha"></span>
+      </div>
+      <br><br>
+
+      <div class="form__box">
+        <input class="form__input" type="text" id="captchaInput" required="required">
+        <span class="form__span">Enter Captcha</span>
+        <i class="form__line"></i>
+      </div>
+      <br>
+      <div class="tnc-box">
+        <input type="checkbox">&nbsp;I hereby accept the terms and conditions
+      </div>
+
+      <input class="form__submit" type="submit" value="Create Account"  style="font-family:'Times New Roman', Times, serif; font-weight: bold;">
+    </form>
+  
+  </div>
+
+
+</body>
+</html>

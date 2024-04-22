@@ -27,3 +27,20 @@ var x = setInterval(function() {
     document.querySelector(".countdown-time").innerHTML = "EXPIRED";
   }
 }, 1000);
+document.addEventListener("DOMContentLoaded", function() {
+        var dropdowns = document.querySelectorAll('.dropdown');
+        dropdowns.forEach(function(dropdown) {
+            dropdown.addEventListener('click', function() {
+                this.querySelector('.dropdown-content').classList.toggle('show');
+            });
+        });
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.addEventListener('click', function(event) {
+            dropdowns.forEach(function(dropdown) {
+                if (!dropdown.contains(event.target)) {
+                    dropdown.querySelector('.dropdown-content').classList.remove('show');
+                }
+            });
+        });
+    });

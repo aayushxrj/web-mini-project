@@ -3,9 +3,16 @@ function generateCaptcha() {
     const captchaLength = 6;
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#@!&%$?';
     let captcha = '';
-    for (let i = 0; i < captchaLength; i++) {
+    /* for (let i = 0; i < captchaLength; i++) {
       captcha += characters.charAt(Math.floor(Math.random() * characters.length));
     }
+    */
+    let i = 0;
+    while (i < captchaLength) {
+      captcha += characters.charAt(Math.floor(Math.random() * characters.length));
+      i++;
+    }
+    
     document.getElementById('captchaDisplay').textContent = captcha;
   }
   

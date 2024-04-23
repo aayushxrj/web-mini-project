@@ -417,6 +417,7 @@ ul.speaker-list li h3 {
     font-size: 25px;
     color: white;
     margin-bottom: 4px;
+    /* color: red; */
 }
 ul.speaker-list li h4 {
     font-size: 23px;
